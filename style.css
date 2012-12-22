@@ -1,6 +1,6 @@
 /* -----------------------------------------------------------------
 
-  * Файл:							style.css
+	* Файл:							style.css
 	* Версия:						1.0
 	* Сайт:						    stroyBlog
 	* Автор:					    Георгий www.masters-lab.ru
@@ -16,6 +16,7 @@
 
 @import "reset.css";
 @import "typography.css";
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic);
 
 * {
 	outline: none;
@@ -207,7 +208,7 @@ body {
 				-khtml-border-radius: 3px;
 				border-radius: 3px;
 			}
-			.top-news ul li a { font: normal 14px 'Myriad Pro'; color: #000; }
+			.top-news ul a { font: normal 17px 'PT Sans Narrow', sans-serif !important; color: #000 !important; letter-spacing: -0.5px; }
 			
 			.btitle { font-size: 14px; }
 		
